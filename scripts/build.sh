@@ -3,7 +3,7 @@
 mkdir -p output/
 
 # Open a fake X server session and run cutycapt to snapshot the Twitter account.
-xvfb-run --server-args="-screen 0, 1280x1200x24" cutycapt --url=https://mobile.twitter.com/cranstonide --out=twitter-timeline.png
+xvfb-run --server-args="-screen 0, 1280x1200x24" cutycapt --url=https://mobile.twitter.com/${TWITTER_USERNAME} --out=twitter-timeline.png
 
 # Format the image.
 convert twitter-timeline.png -flatten -trim +repage twitter-timeline.png

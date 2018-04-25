@@ -4,7 +4,7 @@ Takes a screenshot of a Twitter timeline and outputs a `.png` file. Nice for emb
 
 ## Non-Chached Result
 
-[`twitter-timeline.png`](http://us-west-2-io-mide-assets.s3-website-us-west-2.amazonaws.com/common/twitter/twitter-timeline.png)
+[`twitter-timeline.png`](http://io-mide-assets.s3-website-us-west-2.amazonaws.com/common/twitter/twitter-timeline.png)
 
 ## Automated Build
 
